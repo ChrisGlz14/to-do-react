@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* TASK APP CONTAINER  */
+
+.app-task {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+/* TITLE */
+h1 {
+  text-align: center;
+  color:#213547 ;
+}
+
+/* TASK LIST */
+
+.task-list {
+  width: 600px;
+  min-height: 500px;
+  background-color: #d8d673;
+  padding: 25px;
+  margin: 10px;
+  border-radius: 9px;
+}
+
+
