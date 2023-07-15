@@ -1,19 +1,15 @@
 import "./App.css";
-import Task from "./components/Task";
-import TaskForm from "./components/TaskForm";
+import Task from "./components/Task"; 
+import TaskList from "./components/TaskList";
 
 function App() {
   return (
-    <>
       <div className="app-task">
         <div className="task-list">
           <h1>Lista de Tareas</h1>
-          <h2 className="my-tasks"></h2>
-          <TaskForm />
-          <Task text="Aprender react" />
+          <TaskList />
         </div>
       </div>
-    </>
   );
 }
 

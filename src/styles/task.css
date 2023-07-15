@@ -12,6 +12,18 @@
     cursor: pointer;
 }
 
+/* Colores  */
+.container-task:nth-child(3n + 1) {
+background-color: #04b44b;
+}
+.container-task:nth-child(3n + 2) {
+background-color: #027530;
+}
+.container-task:nth-child(3n + 3) {
+background-color: #015e26;
+}
+
+
 .container-task.completed {
     background-color: #ff0a0a;
     text-decoration: line-through;
